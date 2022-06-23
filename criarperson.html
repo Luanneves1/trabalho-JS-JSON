@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LNGAME</title>
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="principal" class="prin">
+
+        <header>
+            <a href="index.html"><button id="button">Inicio</button></a>
+            <a href="jogabilidade.html"><button id="button">Jogabilidade e personagem</button></a>
+            <a href="sobre.html"><button id="button">sobre</button></a>
+        </header>
+        
+<div id="form_container">
+    <h1 id="h">Criação de Personagem</h1>
+        <form id="form1" action="" class="container">
+
+
+            <div class="container" id="form">
+
+                <fieldset class="container" id="criar">
+
+                    <h2 id="h2">
+                        <ul>Personagem - 1 </ul>
+                    </h2>
+
+                    <div id="im">
+                        <img src="personagens/3 clases.webp" alt="" width="500"
+                            style="border: 5px solid rgb(255, 255, 255); border-radius: 10px;">
+                    </div>
+                    <div id="criar2">
+                        <fieldset class="container" id="forme">
+                            <input type="checkbox" name="checked" id="checkbox"> - Incluir personagem na batalha.
+                            <div>
+                                Nome <div class="container" id="nom"> <input type="text" name="nome" id="nomme"> </div>
+                            </div>
+
+                            <h4>Escolha sua classe de Batalha</h4>
+
+                            <input type="radio" name="personagem" id="cav">
+                            <label for="cav">cavaleiro</label>
+
+                            <input type="radio" name="personagem" id="sam">
+                            <label for="sam">samurai</label>
+
+                            <input type="radio" name="personagem" id="vik">
+                            <label for="vik">vikings</label>
+
+
+                            <div class="container" id="lab">
+                                <div><label for="for">Força</label></div>
+
+                                <div> <input type="number" name="força" id="for" value="552"></div>
+                            </div>
+
+                            <div class="container">
+                                <div><label for="for">Agilidade</label> </div>
+                                <div><input type="number" name="Agilidade" id="for" value="250"></div>
+                            </div>
+
+                            <div class="container">
+                                <div>
+                                    <label for="for">Vida</label>
+                                </div>
+                                <div>
+                                    <input type="number" name="vida" id="for" value="1500">
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <div> <label for="for">Estamina</label> </div>
+                                <div> <input type="number" name="estamina" id="for" value="630"> </div>
+                            </div>
+
+                            <div class="container">
+                                <div> <label for="for">Resistência</label> </div>
+                                <div> <input type="number" name="resistencia" id="for" value="450"> </div>
+                            </div>
+
+                            <div>
+                                <input id="button" type="button" value="Criar">
+                                <input id="add" type="button"  onclick= "clicar ()" value="Criar novo personagem">
+                            </div>
+
+                          
+                        </fieldset>
+                        
+                        
+                    </div>
+                    <h2 id="h2">
+                        <div id="box" class="box">
+                        </div>
+
+        </form>
+    </div>
+
+    </div>
+    
+
+    <footer>
+
+        <div id="foot" class="foot"> Todos os direitos reservados a <a
+                href="https://www.ubisoft.com/pt-br/game/for-honor/heroes"> site ubisoft</a>
+            Trabalho Desenvolvimento web (22.1)
+            <p>&copy;Luan Pereira Neves</p>
+        </div>
+
+    </footer>
+    <script src="JS/form.js"></script>
+</body>
+
+</html>
